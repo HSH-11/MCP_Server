@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.INFO)
 mcp = FastMCP("Office-RAG")
 
 # 문서들이 저장된 폴더 경로를 지정
-OFFICE_DIR = "C:/Users/user/MCP_Server/rag-server"
+OFFICE_DIR = "C:/Users/user/MCP_Server/rag-server/office"
 
 # Word(.docx) 및 Excel(.xlsx) 파일을 읽어 LangChain 문서 리스트로 변환하는 함수
 def load_office_documents(folder_path: str) -> list[Document]:
